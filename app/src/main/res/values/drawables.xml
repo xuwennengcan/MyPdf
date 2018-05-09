@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="recording_time_elapsed_text">#FFFFFFFF</color>
+    <color name="recording_time_remaining_text">#FFFF0033</color>
+    <color name="videolist_press">#56abe4</color>
+    <color name="textcolor_default">#FFFFFF</color>
+    <color name="textcolor_default_ocr_result">#000000</color>
+    <color name="textcolor_press">#56abe4</color>
+    <color name="textcolor_unenable">#555555</color>
+
+    <drawable name="ocr_btn_press">#888888</drawable>
+    <drawable name="ocr_btn_normal">#ffffff</drawable>
+
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+</resources>

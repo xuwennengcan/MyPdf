@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+     >
+     
+        <RelativeLayout
+        android:id="@+id/rl_pdf_top"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="#000000" >
+
+        <ImageView
+            android:id="@+id/iv_pdf_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/iv_video_return" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/pdf_center"
+            android:textColor="#ffffff"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/iv_pdf_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/videolist_menu" />
+    </RelativeLayout>
+    
+        <EditText 
+            android:id="@+id/et_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入内容"
+            android:layout_below="@id/rl_pdf_top"
+            />
+        
+        <Button 
+            android:id="@+id/btn_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生成PDF"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+        
+        
+
+</RelativeLayout>

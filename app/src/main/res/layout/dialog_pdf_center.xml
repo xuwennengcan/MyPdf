@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/rl_pdf_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <TextView
+            android:id="@+id/tv_title_pdf_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/pdf_result"
+            android:textColor="#111"
+            android:textStyle="bold"
+            android:textSize="21sp" />
+        
+        <Button
+            android:id="@+id/btn_close_pdf_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_ocr_btn_press"
+            android:text="@string/close"
+            android:textColor="@drawable/textcolor_ocr_result" />
+
+    </RelativeLayout>
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/et_shape_ocr_result"
+        android:scrollbars="none"
+        android:fillViewport="true" >
+        
+    <ListView
+        android:id="@+id/lv_pdf_center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/videolist_press"
+        ></ListView>
+    </ScrollView>
+    
+        
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+    <issue id="InflateParams" severity="ignore" />
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+    <issue id="OldTargetApi">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="SimpleDateFormat" severity="ignore">
+        <ignore path="src/com/example/mypdf/BitmapUtil.java" />
+    </issue>
+    <issue id="UnknownIdInLayout">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/activity_main.xml" />
+    </issue>
+</lint>
